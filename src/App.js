@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FishTable from './components/FishTable';
+import FishTableMain from './components/FishTable/FishTableMain';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     console.log(this.props, this.state)
     return (
       <div className="App">
-        <FishTable/>
+        <FishTableMain/>
       </div>
     );
   }
