@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from "redux";
-import { rootReducer } from "./reducers";
+import rootReducer from "./reducers/indexReducer";
 import promise from "redux-promise-middleware";
 
 export default(initialState) => {
